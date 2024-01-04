@@ -1,9 +1,12 @@
 body{
   color: #222;
 }
+div.img{
+  max-width: 70%;
+}
 main{
   padding: 10px;
-  max-width: 500px;
+  max-width: 900px;
   margin: 0 auto;
 } 
 header{
@@ -21,4 +24,14 @@ header a.logo{
 header nav{
   display: flex;
   gap: 15px;
+}
+
+.post{
+   display:grid;
+   grid-template-columns: 0.9fr 1.1fr;
+   gap: 20px;
+}
+div.post div.content{
+  margin: 0;
+  font-size: 1.6rem;
 }
